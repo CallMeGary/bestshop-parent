@@ -115,7 +115,7 @@
                 <version>${maven-release-plugin.version}</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <tagNameFormat>${project.version}</tagNameFormat>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
                     <tagBase>${project.scm.url}/tags</tagBase>
                 </configuration>
             </plugin>
